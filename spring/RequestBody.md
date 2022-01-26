@@ -9,7 +9,7 @@ RequestBody로 json데이터가 넘어오면 Jackson2HttpMessageConverter가 변
 이런 방식으로 ObjectMapper의 readValue 메서드를 사용해서 변환하기에 setter가 필요하지 않다. 
 하지만 기본생성자가 있어야한다.
 
-<h2>get요청/h2>
+<h2>get요청</h2>
 
 get은 Query Parameter로 받는다. 그래서 WebDataBinder를 사용한다.
 WebDataBinder는 자바빈 방식으로 setter가 필요하다.
