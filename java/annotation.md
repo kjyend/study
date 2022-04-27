@@ -4,10 +4,10 @@
 
 <h2>표준 애너테이션</h2>
 
-- @Override 
+- @Override : 메서드 앞에만 붙일 수 있는 어노테이션으로, 조상의 메서드를 오버라이딩 한 것을 컴파일러에게 알리는 역할이다.
 
-- @Deprecated
+- @Deprecated : 새로운 기능이 추가되면서 원래의 기능을 대체해도 이미 사용되고 있을지 모를 때 사용한다.
 
-- @Functionallnterface
+- @Functionallnterface : 컴파일러가 함수형 인터페이스를 올바르게 선언했는데지 확인하고, 잘못된 경우 에러를 발생한다.
 
-- @ SuppressWarning
+- @ SuppressWarning : 컴파일러가 보여주는 경고메시지가 나타나지 않게 한다.
